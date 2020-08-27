@@ -20,6 +20,7 @@ def assign_rooms(speakers)
   assigned_rooms
 end
 
+<<<<<<< HEAD
 def printer(attendees)
   batch_badge_creator(attendees).each do | hi |
     puts hi
@@ -27,4 +28,15 @@ def printer(attendees)
   assign_rooms(attendees).each do | hi |
     puts hi
   end
+=======
+def printer(atendees)
+  atendees = []
+  batch_badge_creator(atendees).each do | hi |
+    atendees.push
+  end
+  assign_rooms(atendees).each do | hi |
+    atendees.push
+  end
+  atendees
+>>>>>>> f85128ea51b28f2701924629ca3db0787e7810c2
 end
